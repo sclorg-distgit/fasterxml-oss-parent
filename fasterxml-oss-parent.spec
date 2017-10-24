@@ -4,10 +4,9 @@
 %global oname oss-parent
 Name:          %{?scl_prefix}fasterxml-oss-parent
 Version:       26
-Release:       3.2%{?dist}
+Release:       3.3%{?dist}
 Summary:       FasterXML parent pom
-# pom file licenses ASL 2.0 and LGPL 2.1
-License:       ASL 2.0 and LGPLv2+
+License:       ASL 2.0
 URL:           http://fasterxml.com/
 Source0:       https://github.com/FasterXML/oss-parent/archive/oss-parent-%{version}.tar.gz
 
@@ -59,6 +58,9 @@ This package contains the parent pom file for FasterXML.com projects.
 %license LICENSE NOTICE
 
 %changelog
+* Mon Aug 07 2017 Michael Simacek <msimacek@redhat.com> - 26-3.3
+- Fix incorrect license tag
+
 * Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 26-3.2
 - Mass rebuild 2017-06-22
 
